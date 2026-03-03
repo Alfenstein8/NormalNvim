@@ -1,4 +1,4 @@
-**Important** : You need Neovim 0.11+
+**Important** : You need Neovim 0.12+
 
 <div align="center">
   <img src="https://github.com/NormalNvim/NormalNvim/assets/3357792/76197752-0947-4392-a6bd-a59d64319028"></img>
@@ -126,7 +126,8 @@ Did you know NormalNvim was the first Neovim distro to ship a compiler that [sup
 ## Roadmap
 
 ### High prio
-* New known bug: Diagnostics icons not displaying correctly on the left bar.
+* ~~New known bug: Diagnostics icons not displaying correctly on the left bar.~~
+* New known bug: The first time nvim open, two instances on stylua are opened → This one come from mason registry. PR has been sent: https://github.com/mason-org/mason-registry/pull/13797/changes
 * Port needed: We might need some ajustments for the new major version of overseer.
 * Let's contribute to eldritch.nvim so markdown support is as good as the one we had on tokyonight.
 
